@@ -1,0 +1,83 @@
+/* Responsive Styles for Phones */
+@media (max-width: 815px) {
+    nav{
+        display: flex;
+        height: 50px;
+        width: 490px;
+        text-shadow: 5px;
+    }
+    /* #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 5px;
+    } */
+
+
+    .left{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:auto;
+        font-size: 1rem;
+        
+    }
+    .right{
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        height: 25px;
+    }
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header .right ul {
+        flex-direction: row;
+        align-items: flex-start;
+        width: 66%;
+        margin-top: 3em;
+    }
+
+    header .right ul li {
+        margin: 10px 20;
+    }
+
+    .firstsection {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .firstsection .leftsection {
+        max-width: 100%;
+    }
+
+    .rightsection {
+        display: flex;
+        margin-top: 44rem;
+        width: 50px;
+        margin-right: auto;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .progress-bar div {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .social-icons {
+        margin-top: 1em;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+
+    .resume-container .download-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
